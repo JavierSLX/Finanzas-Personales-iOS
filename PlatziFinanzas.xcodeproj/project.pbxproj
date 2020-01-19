@@ -13,6 +13,15 @@
 		CA447AD223D4B81C00E65BC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA447AD123D4B81C00E65BC8 /* Assets.xcassets */; };
 		CA447AD523D4B81C00E65BC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA447AD423D4B81C00E65BC8 /* Preview Assets.xcassets */; };
 		CA447AD823D4B81C00E65BC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA447AD623D4B81C00E65BC8 /* LaunchScreen.storyboard */; };
+		CA447AE023D4BD3D00E65BC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA447ADF23D4BD3D00E65BC8 /* Main.storyboard */; };
+		CA447AE323D4BDF200E65BC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA447ACB23D4B81B00E65BC8 /* AppDelegate.swift */; };
+		CA447AE423D4BDF200E65BC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA447ACD23D4B81B00E65BC8 /* SceneDelegate.swift */; };
+		CA447AE523D4BDF200E65BC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA447ACF23D4B81B00E65BC8 /* ContentView.swift */; };
+		CA447AE823D4BDF200E65BC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA447AD623D4B81C00E65BC8 /* LaunchScreen.storyboard */; };
+		CA447AE923D4BDF200E65BC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA447AD423D4B81C00E65BC8 /* Preview Assets.xcassets */; };
+		CA447AEA23D4BDF200E65BC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA447AD123D4B81C00E65BC8 /* Assets.xcassets */; };
+		CA447AEB23D4BDF200E65BC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA447ADF23D4BD3D00E65BC8 /* Main.storyboard */; };
+		CA447AF423D4BEEE00E65BC8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA447AF323D4BEEE00E65BC8 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,11 @@
 		CA447AD423D4B81C00E65BC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA447AD723D4B81C00E65BC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA447AD923D4B81C00E65BC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA447ADF23D4BD3D00E65BC8 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CA447AEF23D4BDF200E65BC8 /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA447AF023D4BDF200E65BC8 /* PlatziFinanzas copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PlatziFinanzas copy-Info.plist"; path = "/Users/javierserrano/Desktop/Cursos/Platzi/InterfacesIOS/PlatziFinanzas/PlatziFinanzas copy-Info.plist"; sourceTree = "<absolute>"; };
+		CA447AF123D4BEDB00E65BC8 /* Production.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Production.entitlements; sourceTree = "<group>"; };
+		CA447AF323D4BEEE00E65BC8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,14 +48,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CA447AE623D4BDF200E65BC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA447AF423D4BEEE00E65BC8 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		CA447ABF23D4B81B00E65BC8 = {
 			isa = PBXGroup;
 			children = (
+				CA447AF123D4BEDB00E65BC8 /* Production.entitlements */,
 				CA447ACA23D4B81B00E65BC8 /* PlatziFinanzas */,
 				CA447AC923D4B81B00E65BC8 /* Products */,
+				CA447AF023D4BDF200E65BC8 /* PlatziFinanzas copy-Info.plist */,
+				CA447AF223D4BEEE00E65BC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				CA447AC823D4B81B00E65BC8 /* PlatziFinanzas.app */,
+				CA447AEF23D4BDF200E65BC8 /* Production.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +85,7 @@
 				CA447ACB23D4B81B00E65BC8 /* AppDelegate.swift */,
 				CA447ACD23D4B81B00E65BC8 /* SceneDelegate.swift */,
 				CA447ACF23D4B81B00E65BC8 /* ContentView.swift */,
+				CA447ADF23D4BD3D00E65BC8 /* Main.storyboard */,
 				CA447AD123D4B81C00E65BC8 /* Assets.xcassets */,
 				CA447AD623D4B81C00E65BC8 /* LaunchScreen.storyboard */,
 				CA447AD923D4B81C00E65BC8 /* Info.plist */,
@@ -73,6 +100,14 @@
 				CA447AD423D4B81C00E65BC8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA447AF223D4BEEE00E65BC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA447AF323D4BEEE00E65BC8 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +128,23 @@
 			name = PlatziFinanzas;
 			productName = PlatziFinanzas;
 			productReference = CA447AC823D4B81B00E65BC8 /* PlatziFinanzas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA447AE123D4BDF200E65BC8 /* Production */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA447AEC23D4BDF200E65BC8 /* Build configuration list for PBXNativeTarget "Production" */;
+			buildPhases = (
+				CA447AE223D4BDF200E65BC8 /* Sources */,
+				CA447AE623D4BDF200E65BC8 /* Frameworks */,
+				CA447AE723D4BDF200E65BC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Production;
+			productName = PlatziFinanzas;
+			productReference = CA447AEF23D4BDF200E65BC8 /* Production.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,6 +176,7 @@
 			projectRoot = "";
 			targets = (
 				CA447AC723D4B81B00E65BC8 /* PlatziFinanzas */,
+				CA447AE123D4BDF200E65BC8 /* Production */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +189,18 @@
 				CA447AD823D4B81C00E65BC8 /* LaunchScreen.storyboard in Resources */,
 				CA447AD523D4B81C00E65BC8 /* Preview Assets.xcassets in Resources */,
 				CA447AD223D4B81C00E65BC8 /* Assets.xcassets in Resources */,
+				CA447AE023D4BD3D00E65BC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA447AE723D4BDF200E65BC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA447AE823D4BDF200E65BC8 /* LaunchScreen.storyboard in Resources */,
+				CA447AE923D4BDF200E65BC8 /* Preview Assets.xcassets in Resources */,
+				CA447AEA23D4BDF200E65BC8 /* Assets.xcassets in Resources */,
+				CA447AEB23D4BDF200E65BC8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +214,16 @@
 				CA447ACC23D4B81B00E65BC8 /* AppDelegate.swift in Sources */,
 				CA447ACE23D4B81B00E65BC8 /* SceneDelegate.swift in Sources */,
 				CA447AD023D4B81B00E65BC8 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA447AE223D4BDF200E65BC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA447AE323D4BDF200E65BC8 /* AppDelegate.swift in Sources */,
+				CA447AE423D4BDF200E65BC8 /* SceneDelegate.swift in Sources */,
+				CA447AE523D4BDF200E65BC8 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +393,46 @@
 			};
 			name = Release;
 		};
+		CA447AED23D4BDF200E65BC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Production.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PlatziFinanzas/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "PlatziFinanzas copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.javiersl.PlatziFinanzas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA447AEE23D4BDF200E65BC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Production.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PlatziFinanzas/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "PlatziFinanzas copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.javiersl.PlatziFinanzas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -335,6 +450,15 @@
 			buildConfigurations = (
 				CA447ADD23D4B81C00E65BC8 /* Debug */,
 				CA447ADE23D4B81C00E65BC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA447AEC23D4BDF200E65BC8 /* Build configuration list for PBXNativeTarget "Production" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA447AED23D4BDF200E65BC8 /* Debug */,
+				CA447AEE23D4BDF200E65BC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
